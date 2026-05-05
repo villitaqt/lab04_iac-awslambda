@@ -1,9 +1,17 @@
-# Ignorar binarios de Terraform
+# Archivos de código empaquetado
+*.zip
+
+# Carpetas de Terraform (Plugins y Binarios)
 .terraform/
 .terraform.lock.hcl
-*.tfstate
-*.tfstate.backup
 
-# Otros
-.vscode/
-__pycache__/
+# Estados de Terraform (Contienen datos sensibles de tu infra)
+*.tfstate
+*.tfstate.*
+
+# Variables locales y secretos
+*.tfvars
+!terraform.tfvars #este si es necesario para compartir variables de ejemplo
+
+# Logs de error
+*.log
