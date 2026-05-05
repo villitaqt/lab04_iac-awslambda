@@ -1,0 +1,9 @@
+# Ignorar binarios de Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# Otros
+.vscode/
+__pycache__/
