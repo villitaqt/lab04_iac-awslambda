@@ -74,7 +74,7 @@ La memoria de la Lambda de procesamiento también varía por entorno:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/villitaqt/lab04_iac-awslambda.git
 cd Lab04-Iac-awslambda
 ```
 
