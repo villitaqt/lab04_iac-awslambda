@@ -8,6 +8,7 @@ terraform {
 }
 provider "aws" {
   region = var.aws_region
+  profile = "admin" # mi perfil de aws-cli con permisos para crear recursos
 
   default_tags {
     tags = {
